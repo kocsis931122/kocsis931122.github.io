@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    font-family: Lucida Console;
+    font-size: 18px;
+}
+
+#nav{
+    background-color: #222;
+}
+#nav_wrapper{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+#nav ul li{
+    display: inline-block;
+}
+#nav ul li:hover{
+    background-color: #AEAEAE;
+}
+#nav ul li a,visited{
+    color: #FFFFFF;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#footer {
+  height: 40px;
+  width: 100%;
+  background-color: none;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+#footer p {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+#social-media-icons { float: right; }
